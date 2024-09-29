@@ -6,7 +6,7 @@ from mistralai import Mistral
 
 load_dotenv()
 
-@property
+
 # Mistral API setup
 api_key = os.getenv("MISTRAL_API_KEY")
 model = os.getenv("MODEL_TYPE")
